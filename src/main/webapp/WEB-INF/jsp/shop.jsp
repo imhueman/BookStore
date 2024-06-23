@@ -249,7 +249,7 @@
     var txtSearch = param.value;
     $.ajax({
 
-      url : "/PhoneStore/SearchByAjax",
+      url : "/BookStore/SearchByAjax",
       type : "get",
       data : {
         search : txtSearch

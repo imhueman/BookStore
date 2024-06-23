@@ -37,8 +37,8 @@
                 class="sidebar-heading text-center px-4 py-4 primary-text fs-4 fw-bold text-uppercase border-bottom bg-light">
             <div class="col-lg-2">
                 <a href="admin" class="text-decoration-none"> <span
-                        class="h1 text-uppercase text-warning bg-dark px-2">Phone</span> <span
-                        class="h1 text-uppercase text-dark bg-warning px-2 ml-n1">Store</span>
+                        class="h1 text-uppercase text-warning bg-success px-2">Book</span> <span
+                        class="h1 text-uppercase text-success bg-warning px-2 ml-n1">Store</span>
                 </a>
             </div>
         </div>
