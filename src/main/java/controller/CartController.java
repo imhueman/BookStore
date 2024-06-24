@@ -28,12 +28,6 @@ public class CartController  {
     @Autowired
     private ProductService service;
 
-//	@GetMapping("/cart")
-//	public @ResponseBody List<Cart> getCartsByUserName(@RequestParam String username){
-//		System.out.println(username);
-//		return cartService.getCartByUsername(username);
-//	}
-
     @GetMapping("/cart")
     public ModelAndView getCartByUserName(HttpSession session) {
         ModelAndView modelAndView = new ModelAndView("cart");

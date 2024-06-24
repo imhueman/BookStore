@@ -625,7 +625,7 @@
                                                 <div class="form-group">
                                                     <label>Hình ảnh</label><input type="file"
                                                                                     class="form-control" name="img"
-                                                                                    value="img/${product.getImgPath()}"><img
+                                                                                    value="${product.getImgPath()}"><img
                                                         class=" py-3" src="img/${product.getImgPath()}" alt=""
                                                         style="width: 50px;">
                                                 </div>
